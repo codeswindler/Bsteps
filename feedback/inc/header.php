@@ -3,11 +3,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Leave Feedback</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The page supports only a dark color schemes -->
+    <meta name="color-scheme" content="dark">
+
+    <!-- Replace the Bootstrap CSS with the
+         Bootstrap-Dark Variant CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.min.css" rel="stylesheet">
+  
+    <title>Leave Feedback</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
@@ -24,6 +31,11 @@
             <li class="nav-item">
               <a class="nav-link" href="/bsteps/feedback/feedback.php"
                 >Feedback</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/bsteps/feedback/sms.php"
+                >Test Sms</a
               >
             </li>
             <li class="nav-item">
