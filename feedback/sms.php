@@ -35,7 +35,7 @@
                                         <label for="phoneNumber">Phone Number</label>
                                         <input type="tel" name="phone_number" id="phoneNumber" class="form-control " placeholder="e.g 0719133270" value="">
                                                                             </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="templates">Message Templates</label>
                                         <div class="input-group">
                                             <select id="templates" class="form-control select-search select2-hidden-accessible" data-select2-id="templates" tabindex="-1" aria-hidden="true">
@@ -130,7 +130,7 @@ by Gpot</option>
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="messageField">Compose Message <span class="text-warning text-sm">[15 characters are automatically added for opt out]</span></label>
                                         <textarea name="message" id="messageField" rows="5" class="form-control "></textarea>
